@@ -37,7 +37,7 @@ class CustomSegmentDisplay extends StatelessWidget {
                 disabledColor: Colors.black.withOpacity(.08),
                 enabledColor: Colors.black,
               ),
-              size: 6,
+              size: 5,
             ),
           ),
         ),
