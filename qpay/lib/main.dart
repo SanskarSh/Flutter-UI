@@ -1,25 +1,4 @@
 import 'package:flutter/material.dart';
+import 'package:qpay/src/app.dart';
 
-import 'src/screens/splash_screen.dart';
-
-void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Q Pay',
-      theme: ThemeData(
-        appBarTheme: const AppBarTheme(
-            centerTitle: true, elevation: 0.0, color: Colors.white54),
-        primarySwatch: Colors.blue,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: const SplashScreen(),
-    );
-  }
-}
+void main() => runApp(const MyApp());
